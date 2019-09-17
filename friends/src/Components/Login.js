@@ -31,7 +31,7 @@ class Login extends React.Component {
             // redirect to main page vv
         this.props.history.push('/protected');
       })
-      .catch(error => console.log(error));0
+      .catch(error => console.log(error));
   };
 
   render() {
