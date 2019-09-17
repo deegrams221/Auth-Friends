@@ -38,8 +38,8 @@ const Friends = () => {
       {friends.map(friend => 
         <div className="friend-card" key={friend.id}>
           <h3>{friend.name}</h3>
-          <h4>Email: {friend.email}</h4>
-          <h5>Age: {friend.age}</h5>
+          <h4>Age: {friend.age}</h4>
+          <h5>Email: {friend.email}</h5>
         </div>
       )}
     </div>
